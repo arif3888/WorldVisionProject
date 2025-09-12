@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="wvTest.createSegmentTest"/>
+      <class name="wvTest.refundPaymentTest"/>
+      <class name="wvTest.motivationCodeTest"/>
+      <class name="wvTest.marketingForm_PagesTest"/>
+      <class name="wvTest.realTimeJourneyTest"/>
+      <class name="wvTest.reactivateCSpledgeTest"/>
+      <class name="wvTest.scoringModelTest"/>
+      <class name="wvTest.campaignCreationTest"/>
+      <class name="wvTest.cancelCSpledgeTest"/>
+      <class name="wvTest.leadCreationTest"/>
+      <class name="wvTest.splitPaymentTest"/>
+      <class name="wvTest.organizationCreatesTest"/>
+      <class name="wvTest.transferPaymentTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
