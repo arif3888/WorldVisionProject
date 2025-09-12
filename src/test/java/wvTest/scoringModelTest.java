@@ -6,14 +6,14 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import BasePack.baseClassPcrm;
-import marketingModule.scoringModel;
+import WVtestCase.scoringModel;
 
 public class scoringModelTest  extends baseClassPcrm{
 
 baseClassPcrm bi=new baseClassPcrm();
     
 	@BeforeTest
-	public void driver_set()
+	public void driver_set() throws InterruptedException
 	{
 		
 		bi.driverSetupCrm();

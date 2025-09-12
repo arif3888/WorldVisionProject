@@ -10,8 +10,7 @@ import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import businessCentral.refundPayment;
-import businessCentral.transferPayment;
+
 
 public class basePage {
 
@@ -21,6 +20,7 @@ public class basePage {
 	public WebDriverWait mywait;
 	public Properties prop;
 	public FileReader File;
+	public refundPayment refund;
 	
 	
 	public basePage(WebDriver driver) throws IOException
@@ -33,5 +33,6 @@ public class basePage {
 		 File=new FileReader(".//src//test//resources//config.properties");
 			prop=new Properties();
 			prop.load(File);
+			this.refund= new refundPayment(driver);
 	}
 }

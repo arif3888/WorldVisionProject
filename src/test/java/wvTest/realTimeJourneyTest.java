@@ -5,7 +5,7 @@ import java.io.IOException;
 
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-import marketingModule.realTimeJourney;
+import WVtestCase.realTimeJourney;
 
 import BasePack.baseClassPcrm;
 
@@ -13,7 +13,7 @@ public class realTimeJourneyTest extends baseClassPcrm {
 
 	baseClassPcrm bi=new baseClassPcrm();
 	@BeforeTest
-	public void driver_set()
+	public void driver_set() throws InterruptedException
 	{
 		
 		bi.driverSetupCrm();

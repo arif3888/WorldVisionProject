@@ -7,7 +7,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import BasePack.baseClassPcrm;
-import marketingModule.createSegment_Journey;
+import WVtestCase.createSegment_Journey;
 
 
 public class createSegmentTest extends baseClassPcrm {

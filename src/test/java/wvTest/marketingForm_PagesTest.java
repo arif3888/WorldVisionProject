@@ -5,7 +5,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import BasePack.baseClassPcrm;
-import marketingModule.marketingFormPages;
+import WVtestCase.marketingFormPages;
 
 public class marketingForm_PagesTest extends baseClassPcrm {
 	baseClassPcrm bi=new baseClassPcrm();

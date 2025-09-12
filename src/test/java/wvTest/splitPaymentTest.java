@@ -5,7 +5,7 @@ import java.io.IOException;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-import businessCentral.splitPayment;
+import WVtestCase.splitPayment;
 
 import BasePack.baseClassPcrm;
 

@@ -1,5 +1,5 @@
 
-package marketingModule;
+package WVtestCase;
 
 import java.time.Duration;
 import org.apache.commons.lang3.RandomStringUtils;

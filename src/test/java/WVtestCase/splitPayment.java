@@ -1,7 +1,7 @@
 
 
 
-package businessCentral;
+package WVtestCase;
 
 import java.io.FileReader;
 import java.io.IOException;

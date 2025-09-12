@@ -1,4 +1,4 @@
-package marketingModule;
+package WVtestCase;
 
 import java.awt.AWTException;
 import java.awt.Robot;
