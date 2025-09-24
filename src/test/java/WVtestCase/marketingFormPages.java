@@ -88,7 +88,9 @@ public class marketingFormPages {
     public   void clickCopilot() throws InterruptedException {
 
         WebElement coPilot=wait.until(ExpectedConditions.visibilityOfElementLocated(copilotBtn));
+        
         coPilot.click();
+        
 
     }
 
